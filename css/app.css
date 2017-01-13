@@ -1,0 +1,18 @@
+/* this is my stylesheet for the homepage */
+
+/* table of contents */
+
+/* header styles */
+header h1{
+  color: red;
+  background-color: yellow;
+}
+
+h1, h6{
+  font-family: cursive;
+}
+/* body styles */
+
+/* footer styles */
+
+* {outline: 1px solid red;}
