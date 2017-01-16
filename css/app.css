@@ -3,16 +3,108 @@
 /* table of contents */
 
 /* header styles */
-header h1{
-  color: red;
-  background-color: yellow;
+
+header{
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-h1, h6{
-  font-family: cursive;
+header h1{
+  color: #0D6A71;
+  font-family: 'Raleway', sans-serif;
+  font-size:200%;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  }
+
+nav{
+  margin-top: 25px;
+  margin-bottom: -5px;
 }
+nav a, a:hover, a:visited{
+  color: black;
+  text-decoration: underline;
+  text-align: right;
+  margin-right: 0px;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+}
+
 /* body styles */
+
+/*homepage*/
+.nopadding{
+  padding: 0px;
+  margin: 0px;
+}
+
+ul{
+  color: white;
+  font-family:'Raleway', sans-serif;
+  text-align: left;
+  font-size: 120%;
+}
+
+.infobox{
+  background-color: #0D6A71;
+  padding: 20px;
+  margin-bottom: 1px;
+}
+
+.infobox a, .about a{
+  color: white;
+  font-family:'Raleway', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about{
+    background-color: #128a92;
+    padding: 5px;
+    margin-bottom: 1px;
+  }
+
+  .about:hover{
+    background-color: #0D6A71;
+  }
+
+h2{
+  margin-top: 15px;
+}
+/*portfolio page*/
+
+.img{
+  margin-top: 10px;
+}
+
+figcaption{
+  margin-top: -15px;
+  text-align: center;
+  color: grey;
+  font-size: 120%;
+}
+
+.bio{
+  font-family: 'EB Garamond', serif;
+  font-size: 100%;
+}
 
 /* footer styles */
 
-* {outline: 1px solid red;}
+.footer{
+border-top: solid 2px lightgrey;
+margin-top: 30px;
+padding-top: 5px;
+}
+
+h6{
+  font-family: 'Raleway', sans-serif;
+  font-size: 90%;
+  text-align: center;
+}
+
+/*{outline: 1px solid red;}*/
