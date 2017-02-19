@@ -1,0 +1,479 @@
+/*HOMEPAGE*/
+@keyframes hometitle {
+  0%{opacity: 1}
+  100%{opacity: 0}
+}
+#home{
+  background-image: url(../images/home.jpg);
+  background-repeat: repeat;
+}
+
+h1{
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
+  font-size: 500%;
+  font-weight: lighter;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 150px;
+  text-align: center;
+  animation: hometitle 1 15s forwards;
+  z-index: 2;
+}
+
+nav{
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
+  font-weight: lighter;
+  margin: 0 auto;
+  margin-left: -50px;
+  text-align: center;
+}
+
+.homenav li, .homenav a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 30px;
+  text-decoration: underline;
+  color: white;
+}
+
+.pagenav, .pagenav a{
+  height: 10px;
+  text-decoration: none;
+  text-decoration: underline;
+  color: black;
+  position: absolute;
+}
+
+.home{left: 100px;}
+.about{left:200px;}
+
+footer{
+  font-family: 'Titillium Web', sans-serif;
+  color: grey;
+  font-weight: lighter;
+  margin: auto;
+  text-align: center;
+  margin-top: 300px;
+  position: static;
+}
+
+.worksfooter{
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    font-weight: lighter;
+    margin: auto;
+    text-align: center;
+      position: static;
+}
+
+.next, .previous{
+  width: 30px;
+  height: 50px;
+  opacity: 0.3;
+  margin: 0 auto;
+  display: block;
+  }
+
+.next:hover, .previous:hover{
+  opacity: 1;
+}
+
+.previous{
+  position: fixed;
+  left: 0;
+  top: 300px;
+}
+
+.next{
+  position: fixed;
+  right: 0;
+  top: 300px;
+}
+
+.navbar{
+  margin-bottom: 100px;
+  margin-top: -50px;
+}
+
+/*FIRST PAINTING*/
+
+body{
+  background-image: url(../images/body4.jpg);
+  background-repeat: repeat;
+}
+
+@keyframes black {
+  0%{transform: rotate(0.5turn);}
+  50%{transform: scale(0.75)}
+  80%{transform: rotate(0deg);}
+  100%{transform: rotate(0deg)}
+    }
+
+@keyframes green {
+  0%{left: 2000px;
+     top: 50px;}
+  90%{top: 82px;
+    transform: rotateZ(-20deg);}
+
+ 100%{top:135.5px;
+      left: 800px;}
+}
+
+@keyframes yellow {
+  0%{top:400px;}
+  75%{left: 485px;}
+  78%{transform: rotate(-40deg);}
+  81%{transform: rotate(0deg);}
+
+  83%{transform: rotate(-15deg);}
+  90%{left: 485px;
+       transform: rotate(0deg);}
+  100%{left: 485px;
+       transform: rotate(0deg);}
+}
+
+@keyframes blue {
+  50%{  top: 438px;
+         left: 540px;}
+  100%{  top: 438px;
+         left: 540px;}
+}
+
+@keyframes blue2 {
+  0%{transform: scale(0.5)
+  }
+  100%{top: 543px;
+       left:652px;
+       transform: none;}
+}
+
+@keyframes text {
+  0%{opacity: 0}
+  100%{opacity: 1}
+}
+
+.wrapper{
+  width: 1000px;
+  height: 900px;
+  margin: auto;
+  margin-top: 20px;
+}
+.black{
+  width: 889px;
+  height: 709px;
+  position: absolute;
+  left: 321px;
+  top: 2.5px;
+  animation: black 5s;
+}
+
+.green{
+  width: 347px;
+  height: 306px;
+  position: absolute;
+  top:135.5px;
+  left: 800px;
+  z-index: 2;
+  animation: green 5s forwards;
+}
+.yellow{
+  width: 674px;
+  height: 399px;
+  position: absolute;
+  top: 352px;
+  left: -1600px;
+  animation: yellow 5s forwards;
+}
+
+.blue{
+  width: 584px;
+  height: 314px;
+  position: absolute;
+  top: 600px;
+  left:540px;
+  animation: blue 5s forwards;
+  }
+
+.blue2{
+  width: 371px;
+  height: 256px;
+  position: absolute;
+  top: 543px;
+  left:652px;
+  animation: blue2 5s forwards;
+  }
+
+.text{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 500px;
+  left: 250px;
+  margin: auto;
+  animation: text 15s forwards;
+}
+
+p{
+  font-family: 'Titillium Web', sans-serif;
+  color: black;
+  font-size: 200%;
+  line-height: 1.1em;
+}
+
+.source{
+  color: black;
+  font-size: 100%;
+  margin-top: -20px;
+}
+span{
+  font-style: italic;
+  }
+
+
+
+/*SECOND ANIMATION*/
+.container{
+  height: 700px;
+}
+.wrapper2{
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both 6.9;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  position: absolute;
+  top: -200px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(6px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-8px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(8px, 0, 0);
+  }
+}
+
+@keyframes one {
+  100%{top:505px;
+   left: 195px;
+   transform: rotate(2deg);}
+}
+
+@keyframes two {
+  100%{top:555px;
+   left: 415px;
+   transform: rotate(0deg);}
+}
+
+@keyframes three {
+  100%{top:700px;
+       left: 600px;
+       transform: rotate(0deg);
+  }
+}
+
+@keyframes six {
+  100%{top:488px;
+   left: 632px;
+   transform: rotate(0deg);}
+}
+
+@keyframes five {
+  100%{top:366px;
+   left: 780px;
+   transform: rotate(2deg);}
+}
+
+@keyframes four {
+  100%{top:300px;
+   left: 493px;
+   transform: rotate(0deg);}
+}
+
+@keyframes seven {
+  100%{top:340px;
+   left: 732px;
+   transform: rotate(0deg);}
+}
+
+@keyframes eight {
+  100%{top:463px;
+   left: 875px;
+   transform: rotate(2deg);}
+}
+
+.red1, .red2, .red3, .red4, .red5, .red6, .red7, .red8{
+  transform: rotate(44deg);
+}
+
+.red1{
+  width: 435px;
+  height: 437px;
+  position: absolute;
+  top:166px;
+  left:500px;
+  animation: one 5s forwards;
+  animation-delay: 1s;
+}
+
+.red2{
+  width: 378px;
+  height: 346px;
+  position: absolute;
+  top:320px;
+  left:550px;
+  transform: rotate(39.5deg);
+  animation: two 5s forwards;
+  animation-delay: 1s;
+}
+
+.red3{
+  width: 249px;
+  height: 253px;
+  position: absolute;
+  top:500px;
+  left:600px;
+  transform: rotate(39.5deg);
+  animation: three 5s forwards;
+  animation-delay: 1s;
+}
+
+.red4{
+  width: 173px;
+  height: 179px;
+  position: absolute;
+  top:75px;
+  left:660px;
+  transform: rotate(37deg);
+  animation: four 5s forwards;
+  animation-delay: 1s;
+}
+
+.red5{
+  width: 167px;
+  height: 162px;
+  position: absolute;
+  top: 168px;
+  left:720px;
+  animation: five 5s forwards;
+  animation-delay: 1s;
+}
+
+.red6{
+  width: 101px;
+  height: 99px;
+  position: absolute;
+  top: 251px;
+  left:750px;
+  transform: rotate(40deg);
+  animation: six 5s forwards;
+  animation-delay: 1s;
+}
+
+.red7{
+  width: 74px;
+  height: 72px;
+  position: absolute;
+  top:55px;
+  left:700px;
+  animation: seven 5s forwards;
+  animation-delay: 1s;
+}
+
+.red8{
+  width: 57px;
+  height: 55px;
+  position: absolute;
+  top:35px;
+  left:700px;
+  transform: rotate(46deg);
+  animation: eight 5s forwards;
+  animation-delay: 1s;
+}
+
+.text2{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 330px;
+  left: 820px;
+  margin: auto;
+  animation: text 15s forwards;
+  }
+
+/*THIRD ANIMATION*/
+.container2{
+  height: 800px;
+}
+@keyframes jump {
+  0%, 10%, 20%{  top: 500px;
+            left: 530px;}
+  5%{top: 500px;
+      left: 461px;}
+  15%{left:598px;}
+
+  25%{top:650px;}
+
+  30%{top:300px;}
+
+  35%{top:400px;}
+
+  40%{top:50px;}
+
+  45%{top:105px;}
+
+  49%{left: 530px}
+
+  50%{top:106px;}
+
+  55%{top:107px;
+    left: 400px;}
+
+  65%{top:20px;
+    left: 330px;}
+
+  100%{top:20px;
+    left: 330px;}
+}
+
+.text3{
+  width: 600px;
+  height: 200px;
+  position: absolute;
+  top: 270px;
+  left: 820px;
+  animation: text forwards 15s;
+}
+
+.circle{
+  width: 200px;
+  height: 200px;
+  animation: jump 12s forwards;
+  position: absolute;
+  z-index: 2;
+}
+
+.bluerec{
+  width: 353px;
+  height: 553px;
+  position: absolute;
+  top: 300px;
+  left: 450px;
+  z-index: 1;
+  animation: bluerec forwards 15s;
+}
+
+
+
+
+/*{outline: 1px solid red;}*/
