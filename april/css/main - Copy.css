@@ -1,0 +1,302 @@
+#homebody{
+  background-image: url("../images/kam2.jpg");
+  background-repeat: repeat-y;
+}
+
+#wrapper{
+  width:1000px;
+  margin: 0px auto;
+  padding: 10px;
+  padding-top: 20px;
+    /*border: blue solid 1px;*/
+}
+
+#top{
+  width: 1000px;
+  height: 40px;
+}
+
+p{
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  line-height: 1.5;
+  text-indent: 15px;
+}
+
+img{
+  border: solid 1px #B8B8B8;
+}
+
+#midthumbnails{
+  width: 800px;
+  float: right;
+}
+
+#mainbox{
+  width: 1000px;
+  height: 600px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  /*border: blue solid 1px;*/
+}
+
+#name{
+  width: 900px;
+  font-size: 750%;
+  text-align: center;
+  margin: auto auto;
+  font-family:'Anonymous Pro', monospace;
+  color: black;
+  padding-top: 145px;
+}
+
+#biophoto{
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 35px;
+}
+
+#biotext{
+  width: 660px;
+  height: 350px;
+  float: right;
+}
+
+#text{
+  width: 635px;
+  height: 350px;
+  float: right;
+}
+
+#srcimg{
+  width: 330px;
+  height: 150px;
+  float: right;
+  margin-left: 20px;
+  padding-left: 60px;
+  border-left: #B8B8B8 2px solid;
+}
+
+h2{
+  width: 300px;
+  height: 40px;
+  float: left;
+  font-size: 200%;
+  text-align: left;
+  font-family:'Anonymous Pro', monospace;
+  color: lime;
+  margin-top: 0px;
+}
+
+#images{
+  width: 635px;
+  height: 450px;
+  float: right;
+}
+/*
+#g-images{
+  width: 635px;
+  height: 350px;
+  float: right;
+  padding-top: 15px;
+}
+*/
+#mainboxgallery{
+  width: 1000px;
+  height: 980px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  /*border: blue solid 1px;*/
+}
+#thumbnails{
+  position: static;
+  width: 250px;
+  height: 500px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+figure{
+  position: relative;
+  float: left;
+  /*border: red solid 0.5px;*/
+  margin-top: 15px;
+  margin-left: -66px;
+}
+
+h3{
+  font-size: 180%;
+  text-align: left;
+  font-style: italic;
+  font-family: 'Lora', serif;
+  color: red;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+h4{
+  font-size: 17px;
+  text-align: left;
+  font-style: italic;
+  font-family: 'Lora', serif;
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+nav{
+width: 600px;
+height: 40px;
+float:right;
+padding-top: 2px;
+}
+
+nav ul{
+  width: 100%;
+  height: 30px;
+  margin-top: 9px;
+  list-style-type: none;
+  text-align: right;
+  font-family:'Anonymous Pro', monospace;
+  font-weight: bold;
+  font-size: 15px;
+  float: right;
+}
+
+.home{
+  display: inline-block;
+  margin-left: 13px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.bio{
+  display: inline-block;
+  margin-left: 13px;
+  margin-top: 0px;
+}
+
+.gallery{
+  display: inline-block;
+  margin-left: 13px;
+  margin-top: 0px;
+}
+
+.sources{
+  display: inline-block;
+    margin-left: 13px;
+    margin-top: 0px;
+}
+
+.present{
+  display: inline-block;
+    margin-left: 13px;
+    margin-top: 0px;
+}
+
+nav a{
+  text-decoration: none;
+  color: #B8B8B8;
+}
+
+nav a:hover{
+  text-decoration: none;
+  color: black;
+  background-color: lime;
+}
+
+nav a:active{
+  text-decoration: none;
+  color: black;
+  background-color: lime;
+}
+
+h1{
+  width: 300px;
+  font-size: 400%;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  text-align: left;
+  font-family:'Anonymous Pro', monospace;
+  color: #2D3B6B;
+}
+
+figcaption{
+  text-align: center;
+  padding-top: 7px;
+}
+
+
+.one{
+  display: inline-block;
+  margin: 15px;
+  margin-top: 0px;
+  float: right;
+  margin-right: 0px;
+}
+.two{
+  display: inline-block;
+  margin: 15px;
+  float: right;
+  margin-top: 0px;
+}
+.three{
+  display: inline-block;
+  margin: 15px;
+  float: right;
+  margin-top: 0px;
+}
+.four{
+  display: inline-block;
+  margin: 15px;
+  float: right;
+  margin-top: 0px;
+}
+.five{
+  display: inline-block;
+  margin: 15px;
+  float: right;
+  margin-right: 0px;
+}
+.six{
+  display: inline-block;
+  margin: 15px;
+  float: right;
+}
+.seven{
+  display: inline-block;
+  margin: 15px;
+  float: right;
+}
+.eight{
+  display: inline-block;
+  margin: 15px;
+  float: right;
+}
+
+hr{
+  width: 1000px;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer{
+  text-align: center;
+  font-family:'Anonymous Pro', monospace;
+  font-kerning: none;
+color: black;
+}

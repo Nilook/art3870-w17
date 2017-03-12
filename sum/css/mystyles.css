@@ -1,0 +1,120 @@
+#wrapper{
+  background-image: url(../images/sky5.jpg);
+  background-repeat: repeat;
+}
+
+h1{
+  margin-top: 80px;
+  font-family: 'Lobster Two', cursive;
+  font-size: 500%;
+  color: #223159;
+  text-align: left;
+  float: left;
+}
+
+h2{
+  font-family: 'Lobster Two', cursive;
+  font-size: 250%;
+  color:#223159;
+  text-align: left;
+}
+
+h5{
+  color:#223159;
+  text-align: left;
+  font-family: 'Martel', serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.blue{
+  border-top: solid 2px #2FA3DE;
+  padding-left: 10px;
+  text-align: left;
+  display: block;
+  max-width: 250px;
+  margin-bottom: 15px;
+}
+
+a{
+  font-family: 'Martel', serif;
+  font-size: 16px;
+  color: #223159;
+  text-decoration: none;
+}
+
+a:hover{
+    color: #2FA3DE;
+    font-weight: bold;
+}
+
+li{
+    list-style: none;
+    display: block;
+    border-bottom: solid 1px #2FA3DE;
+    text-align: left;
+    width: 120px;
+}
+
+.khali{
+  max-width: 280px;
+}
+
+.large-9{
+  text-align: left;
+  font-family: 'Martel', serif;
+  font-size: 15px;
+  line-height: 1.5em;
+  color: #223159;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.homepic{
+  border-radius: 110px;
+  margin-right:15px;
+  margin-bottom:15px;
+}
+
+.homepic:hover{
+  opacity: 0.5;
+}
+
+.story{
+  color: #223159;
+  float: right;
+}
+
+.photocredit a{
+ color:  #223159;
+}
+
+iframe{
+  max-width: 740px;
+  height: 598px;
+}
+
+.footer{
+  text-align: center;
+  min-height: 200px;
+}
+
+p{
+    font-family:'Martel', serif;
+    color: #223159;
+  }
+
+.large-12{
+  text-align: center;
+  color: #223159;
+  border-top: #2FA3DE solid 0.5px;
+  margin-top: -10px;
+}
+
+form{
+width: 500px;
+font-family: 'Martel', serif;
+line-height: 2em;
+margin-top: 20px;
+margin-bottom: 20px;
+}
