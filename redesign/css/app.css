@@ -1,0 +1,287 @@
+/*stylesheet*/
+
+
+/* header font styles*/
+
+@font-face {
+    font-family: 'selima';
+    src: url('../font/selima.otf');}
+
+h1, h6 , h2, footer {font-family: 'selima'; font-size: 30px}
+
+p {font-family: 'Hind', sans-serif; font-size: 25px;}
+
+a {font-family: 'selima'; font-size: 35px; margin: 0px 50px;}
+
+/* color */
+  header h1 h4{color: black; background-color: white;}
+  a {color: #dfa126;}
+  h5 {color: #dfa126;}
+  h4 {color: #dfa126;}
+  p{text-align: left}
+  h3{ font-family: 'Selima', cursive; font-size: 40px; color: #065a00; color:#065a00}
+
+li a:hover{
+  color: #dfa126;
+}
+
+
+.formtitle{
+  margin-top: 20px;
+}
+
+.locationbox{
+  padding-bottom: 10px;
+}
+  /*
+  red color: #980004
+  green color: #065a00
+  gold color:#dfa126
+  burgandy:4e0e1d
+  */
+
+/* styles */
+body {color:black; background-color: white;}
+h1{text-align: center;}
+
+.nav{
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 20px;
+}
+.large-12{
+  text-align: center;
+}
+
+#intro{
+display: inline;
+float: left;
+margin-top: 10px;
+margin-bottom: -10px;
+}
+
+.introtext{
+  padding-top: 22px;
+}
+/* header */
+
+ul.top-bar-left{
+  border-bottom: solid 2px #065a00;
+}
+
+
+/* footer */
+
+
+@charset "UTF-8";
+
+.row {
+  max-width: 1200px; }
+
+.footer {
+  background-color: #33383b;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 4rem; }
+  .footer .inline-list a {
+    display: inline-block;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 3px 0 0; }
+  .footer .contact {
+    list-style-type: none;
+    margin: 0;
+    text-align: left;
+    color: white; }
+    .footer .contact li {
+      margin-bottom: 2rem; }
+      .footer .contact li p {
+        padding-left: 5rem; }
+    .footer .contact i {
+      position: absolute;
+      background-color: #33383b;
+      color: white;
+      font-size: 2rem;
+      border-radius: 50%;
+      line-height: 1;
+      margin: 0 0 0 -4rem;
+      vertical-align: middle;
+      padding: .25em .45em; }
+  .footer .copyright {
+    color: #8f9296;
+    font-size: 0.875rem;
+    margin: 0 0 1rem 0; }
+  .footer .about {
+    color: #8f9296;
+    font-size: 0.875rem;
+    margin: 0 0 1rem 0; }
+
+  .footer{
+    margin-top: 15px;
+  }
+  .footer .footer-links a {
+    list-style: none;
+    font-weight: normal;
+    color: white;
+    padding: 3rem 0 2rem;
+    margin: 0;
+    font-size: 0.875rem; }
+    .footer .footer-links a::after {
+      content: "•";
+      padding: 0 0.2rem 0 0.4rem; }
+    .footer .footer-links a:last-child::after {
+      content: "";
+      padding: 0 0.4rem 0 0.8rem; }
+  @media only screen and (min-width: 40.063em) {
+    .footer p {
+      text-align: left; }
+    .footer .social {
+      text-align: left;
+      margin: 0; }
+    .footer .contact {
+      text-align: left; }
+      .footer .contact > i {
+        margin-right: 1rem; } }
+
+
+/* menu page fatimah*/
+
+#menuhead {background-color: #dfa126; padding: 40px;}
+#menuheadtext {color: white; font-size: 50px;}
+
+
+#head2 {background-color: #065a00; padding: 10px;}
+.head2text {color: black; font-family: 'Hind', sans-serif; font-size: 20px; text-align: center; }
+
+#text{padding: 20px;}
+
+.accordion-title {color: #065a00; font-size: 45px;}
+
+
+
+
+/* about page niloo */
+
+.top-bar-left a{
+    color: #980004;
+}
+
+
+.title-bar{background: #980004;}
+
+#example-animated-menu{
+  background-color: white;
+}
+
+ul.top-bar-left{
+  border-bottom: solid 1px #980004;
+}
+
+.top-bar ul, .top-bar{
+   background-color: white;
+ }
+
+.aboutphoto{
+  padding-bottom: 8px;
+}
+
+/*FOOTER3*/
+
+
+.yellow{
+  background-color: #dfa126;
+}
+
+.footer a{
+  color: white;
+font-family: 'Hind', sans-serif;
+  font-weight: 300;
+}
+
+.footer a:hover{
+  color:#dfa126;
+font-family: 'Hind', sans-serif;
+  font-weight: 300;
+}
+
+.footer{
+font-family: 'Hind', sans-serif;
+  font-weight: 300;
+  text-align: left;
+  color: white;
+  list-style: none;
+}
+
+.abouttext{
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+-moz-column-count: 2; /* Firefox */
+column-count: 2;
+text-align: justify;
+text-justify: inter-word;
+}
+
+.aboutimg{
+  padding: 3px;
+  border: solid #8f9296 0.5px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 39.9375em) {
+
+.top-bar-left a{
+  font-size: 200%;
+  text-align: left;
+}
+
+.abouttext{
+-webkit-column-count: 1; /* Chrome, Safari, Opera */
+-moz-column-count: 1; /* Firefox */
+column-count: 1;
+text-justify: inter-word; }
+
+p{
+  font-size: 12pt;
+}
+}
+
+@media screen and (min-width: 40em) {
+  .abouttext{
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  text-justify: inter-word;
+  column-gap: 2em;
+  }
+
+  p{
+    font-size: 12pt;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .abouttext{
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  text-justify: inter-word;
+  }
+
+    p{
+      font-size: 13pt;
+    }
+
+}
+
+
+/* about page niloo */
+
+.align-center {
+  text-align: center;
+}
+
+
+/*{outline: solid blue 1px}/
