@@ -1,0 +1,205 @@
+body{
+  height:10000px;
+  }
+
+body{
+  background-color:#ADDFE9;
+  }
+
+  #wrapper{
+    border:1px solid red;
+    width:1200px;
+    margin:0 auto;
+    height:10000px;
+    position:relative;
+  }
+
+#gift{
+  width:300px;
+  height:310px;
+  position:fixed;
+  bottom:-100px;
+  left:300px;
+  z-index:99;
+  background-image:url("../images/gift.png");
+  background-repeat:no-repeat;
+  animation: gift 1.8s forwards;
+  animation-delay:4.2s;
+  }
+
+  #crow{
+    width:450px;
+    height:377px;
+    position:fixed;
+    left:50%;
+    margin-left:-225px;
+    z-index:100;
+    background-image:url("../images/crow.png");
+    background-repeat:no-repeat;
+    animation: crow 6s forwards;
+  }
+
+  .cake{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    bottom:0;
+    left:500px;
+    z-index: 97;
+    background: url(../images/cake.png)
+  }
+
+  .girl{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    bottom:0;
+    left:730px;
+    z-index: 98;
+    background: url(../images/girl.png) no-repeat;
+    background-size:contain;
+  }
+
+.music,.music2{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  bottom:900px;
+  right:200px;
+  background: url(../images/musicgrey.png) no-repeat;
+  background-size:contain;
+  animation: music infinite 5s;
+}
+
+.music2{
+  position: absolute;
+  bottom:900px;
+  left:200px;
+}
+
+.house{
+  width: 1200px;
+  height: 500px;
+  position: absolute;
+  bottom:1700px;
+  left:200px;
+  background: url(../images/house.png) no-repeat;
+  background-size:contain;
+}
+
+.landscape{
+  width: 1200px;
+  height: 500px;
+  position: absolute;
+  bottom:2800px;
+  background: url(../images/landscape.png) no-repeat;
+  background-size:contain;
+}
+
+.car{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  bottom:2880px;
+  left:50%;
+  margin-left: -50px;
+  background: url(../images/car.png) no-repeat;
+  background-size:contain;
+}
+
+.rain{
+  width: 1200px;
+  height: 1900px;
+  position: absolute;
+  bottom:2200px;
+  left: 50%;
+  margin-left: -600px;
+  background: url(../images/rain.png) no-repeat;
+  background-size:contain;
+}
+
+.cloud{
+  width: 500px;
+  height: 1000px;
+  position: absolute;
+  bottom:3900px;
+  right: 0;
+  background: url(../images/cloud.png) no-repeat;
+  background-size:contain;
+}
+
+.sun{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  bottom:5500px;
+  left: 0;
+  background: url(../images/sun.png) no-repeat;
+  background-size:contain;
+}
+
+.plane{
+  width: 700px;
+  height: 200px;
+  position: absolute;
+  bottom:6500px;
+  left:50%;
+  margin-left: -350px;
+  background: url(../images/plane.png) no-repeat;
+  background-size:contain;
+}
+
+.ladycrow{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom:7450px;
+  left:55%;
+  background: url(../images/ladycrow.png) no-repeat;
+  background-size:contain;
+}
+
+.line{
+  width: 1200px;
+  height: 600px;
+  position: absolute;
+  bottom:7100px;
+  background: url(../images/line.png) no-repeat;
+  background-size:contain;
+}
+
+/* T E X T */
+.gotop{
+  width: 200px;
+  position: absolute;
+  bottom: 100px;
+  left: 200px;
+  opacity: 0;
+  font-family: 'Comfortaa', cursive;
+  animation: text 3s forwards;
+  animation-delay: 5s;
+}
+/*  E N D   O F   T E X T */
+/* A N I M A T I O N S */
+@keyframes text {
+  0%{opacity:0}
+  100%{opacity: 1}
+}
+@keyframes crow {
+   0%{top:-10px; left: -100px;}
+   50%{top: 180px; left: 400px;}
+   70%{top: 180px; left: 400px;}
+   100%{top: 70px; left: 600px;}
+}
+
+@keyframes gift {
+  0%{ bottom:-100px; left:300px;}
+  100%{bottom: 15px; left:490px;}
+}
+
+@keyframes music {
+  100%{transform: rotate(360deg);
+  transform-origin: center;}
+}
+
+/* E N D   O F   A N I M A T I O N S */
