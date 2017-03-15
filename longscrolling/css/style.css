@@ -1,37 +1,38 @@
 body{
-  height:10000px;
-  }
+  background-color: #ADDFE9;
+  padding: 0;}
 
-body{
-  background-color:#ADDFE9;
-  }
+
 
   #wrapper{
     width:1200px;
+    height:8000px;
     margin:0 auto;
-    height:10000px;
     position:relative;
+    padding: 0;
   }
 
 #gift{
-  width:300px;
+  width:270px;
   height:310px;
-  position:fixed;
-  bottom:-100px;
-  left:300px;
+  position:absolute;
+  top:300px;
+  left:280px;
   z-index:99;
-  background-image:url("../images/gift.png");
+  background-image:url("../images/redgift.png");
   background-repeat:no-repeat;
+  background-size: contain;
   animation: gift 1.8s forwards;
   animation-delay:4.2s;
+  transform: rotate(15deg);
   }
 
   #crow{
     width:450px;
     height:377px;
-    position:fixed;
-    left:50%;
-    margin-left:-225px;
+    position:absolute;
+    left:220px;
+    top: 80px;
     z-index:100;
     background-image:url("../images/crow.png");
     background-repeat:no-repeat;
@@ -39,20 +40,21 @@ body{
   }
 
   .cake{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     position: absolute;
-    bottom:0;
+    top:8000px;
     left:500px;
     z-index: 97;
-    background: url(../images/cake.png)
+    background: url(../images/cakered.png) no-repeat;
+    background-size: contain;
   }
 
   .girl{
     width: 450px;
     height: 450px;
     position: absolute;
-    bottom:0;
+    top:7900px;
     left:730px;
     z-index: 98;
     background: url(../images/girl.png) no-repeat;
@@ -63,26 +65,36 @@ body{
   width: 400px;
   height: 400px;
   position: absolute;
-  bottom:900px;
+  top: 7100px;
   right:200px;
-  background: url(../images/musicgrey.png) no-repeat;
+  background: url(../images/musicgreen.png) no-repeat;
   background-size:contain;
   animation: music infinite 5s;
 }
 
 .music2{
   position: absolute;
-  bottom:900px;
+  top: 7100px;
   left:200px;
 }
 
-.house{
-  width: 1200px;
-  height: 500px;
+.yellowhouse{
+  width: 800px;
+  height: 900px;
   position: absolute;
-  bottom:1700px;
-  left:200px;
-  background: url(../images/house.png) no-repeat;
+  top:6000px;
+  right:0;
+  background: url(../images/yellowhouse.png) no-repeat;
+  background-size:contain;
+}
+
+.pinkhouse{
+  width: 300px;
+  height: 700px;
+  position: absolute;
+  top:5900px;
+  left:0;
+  background: url(../images/greenbuilding.png) no-repeat;
   background-size:contain;
 }
 
@@ -90,7 +102,7 @@ body{
   width: 1200px;
   height: 500px;
   position: absolute;
-  bottom:2800px;
+  top:5000px;
   background: url(../images/landscape.png) no-repeat;
   background-size:contain;
 }
@@ -99,9 +111,11 @@ body{
   width: 300px;
   height: 200px;
   position: absolute;
-  bottom:2880px;
+  top:5220px;
   left:50%;
   margin-left: -50px;
+  transform: rotate(12deg);
+  animation: car 10s infinite paused;
   background: url(../images/car.png) no-repeat;
   background-size:contain;
 }
@@ -110,7 +124,7 @@ body{
   width: 1200px;
   height: 1900px;
   position: absolute;
-  bottom:2200px;
+  top:4100px;
   left: 50%;
   margin-left: -600px;
   background: url(../images/rain.png) no-repeat;
@@ -121,34 +135,57 @@ body{
   width: 500px;
   height: 1000px;
   position: absolute;
-  bottom:3900px;
+  top:3500px;
   right: 0;
-  background: url(../images/cloud.png) no-repeat;
+  background: url(../images/bluecloud.png) no-repeat;
   background-size:contain;
+}
+
+.bigcloud, .bigcloud2{
+  width: 700px;
+  height: 500px;
+  position: absolute;
+  top:3050px;
+  left: 0;
+  background: url(../images/bigcloud.png) no-repeat;
+  background-size:contain;
+}
+
+.bigcloud{
+  width: 800px;
+  left: 300px;
+  top:2300px;
+
+    z-index: 5;
+  }
+
+.bigcloud2{
+  z-index: 101;
 }
 
 .sun{
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   position: absolute;
-  bottom:5500px;
-  left: 0;
+  left: 350px;
+  animation: sun 12s forwards;
   background: url(../images/sun.png) no-repeat;
   background-size:contain;
+  z-index: 2;
 }
 
 .plane{
-  width: 700px;
+  width: 600px;
   height: 200px;
   position: absolute;
-  bottom:6500px;
-  left:50%;
-  margin-left: -350px;
-  background: url(../images/plane.png) no-repeat;
+  left:0px;
+  top:1300px;
+  animation: plane 15s forwards paused;
+  background: url(../images/yplane.png) no-repeat;
   background-size:contain;
 }
 
-.ladycrow{
+/*.ladycrow{
   width: 300px;
   height: 300px;
   position: absolute;
@@ -156,22 +193,22 @@ body{
   left:55%;
   background: url(../images/ladycrow.png) no-repeat;
   background-size:contain;
-}
+}*
 
 .line{
   width: 1200px;
   height: 600px;
   position: absolute;
-  bottom:7100px;
+  top:900px;
   background: url(../images/line.png) no-repeat;
   background-size:contain;
-}
+}/
 
 /* T E X T */
 .gotop{
   width: 200px;
   position: absolute;
-  bottom: 100px;
+  top: 7900px;
   left: 200px;
   opacity: 0;
   font-family: 'Comfortaa', cursive;
@@ -184,21 +221,35 @@ body{
   0%{opacity:0}
   100%{opacity: 1}
 }
-@keyframes crow {
+
+/*@keyframes crow {
    0%{top:-10px; left: -100px;}
-   50%{top: 180px; left: 400px;}
-   70%{top: 180px; left: 400px;}
-   100%{top: 70px; left: 600px;}
+   50%{top: 220px; left: 400px;}
+   70%{top: 220px; left: 400px;}
+   100%{top: 75px; left: 600px;}
 }
 
 @keyframes gift {
-  0%{ bottom:-100px; left:300px;}
   100%{bottom: 15px; left:490px;}
-}
+}*/
 
 @keyframes music {
   100%{transform: rotate(360deg);
   transform-origin: center;}
 }
 
+@keyframes sun {
+  0%{top: 2000px;}
+  100%{top: 2300px;}
+}
+
+@keyframes plane {
+  0%{ left:0px;  top:1300px; }
+  100%{ left: 600px; top:1000px;}
+}
+
+@keyframes car {
+  0%{ top:5220px; left:50%; margin-left: -50px; transform: rotate(12deg)}
+  100%{top:5219px; left:70%; margin-left: -50px; transform: rotate(0deg) }
+}
 /* E N D   O F   A N I M A T I O N S */
