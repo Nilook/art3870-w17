@@ -15,7 +15,7 @@ $(document).ready(function(){
 });
 
 
- if (fromTop > 5000 && fromTop < 6000) {
+ if (fromTop > 4500 && fromTop < 5200) {
   $(".car").css({"animation-play-state" : "running"});
  }
 

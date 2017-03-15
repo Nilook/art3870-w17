@@ -1,12 +1,16 @@
 body{
-  background-color: #ADDFE9;
-  padding: 0;}
+  height: 8345px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffb349+0,addfe9+44,117a61+93 */
+  background: #ffb349; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffb349 0%, #addfe9 44%, #117a61 93%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ffb349 0%,#addfe9 44%,#117a61 93%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ffb349 0%,#addfe9 44%,#117a61 93%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb349', endColorstr='#117a61',GradientType=0 ); /* IE6-9 */
 
-
+}
 
   #wrapper{
     width:1200px;
-    height:8000px;
     margin:0 auto;
     position:relative;
     padding: 0;
@@ -181,39 +185,39 @@ body{
   left:0px;
   top:1300px;
   animation: plane 15s forwards paused;
-  background: url(../images/yplane.png) no-repeat;
+  background: url(../images/plane.png) no-repeat;
   background-size:contain;
 }
 
-/*.ladycrow{
+.ladycrow{
   width: 300px;
   height: 300px;
   position: absolute;
-  bottom:7450px;
+  top:250px;
   left:55%;
   background: url(../images/ladycrow.png) no-repeat;
   background-size:contain;
-}*
+}
 
 .line{
   width: 1200px;
   height: 600px;
   position: absolute;
-  top:900px;
+  top:320px;
   background: url(../images/line.png) no-repeat;
   background-size:contain;
-}/
+}
 
 /* T E X T */
-.gotop{
+h1{
   width: 200px;
+  height: 40px;
   position: absolute;
-  top: 7900px;
-  left: 200px;
-  opacity: 0;
+  top: 8100px;
+  left:50px;
+  color: white;
   font-family: 'Comfortaa', cursive;
-  animation: text 3s forwards;
-  animation-delay: 5s;
+  animation: text 5s forwards;
 }
 /*  E N D   O F   T E X T */
 /* A N I M A T I O N S */
