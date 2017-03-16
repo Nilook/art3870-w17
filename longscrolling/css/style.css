@@ -1,5 +1,4 @@
 body{
-  height: 8345px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffb349+0,addfe9+44,117a61+93 */
   background: #ffb349; /* Old browsers */
   background: -moz-linear-gradient(top,  #ffb349 0%, #addfe9 44%, #117a61 93%); /* FF3.6-15 */
@@ -11,6 +10,7 @@ body{
 
   #wrapper{
     width:1200px;
+    height: 8400px;
     margin:0 auto;
     position:relative;
     padding: 0;
@@ -45,9 +45,9 @@ body{
 
   .cake{
     width: 350px;
-    height: 350px;
+    height: 300px;
     position: absolute;
-    top:8000px;
+    bottom:0;
     left:500px;
     z-index: 97;
     background: url(../images/cakered.png) no-repeat;
@@ -55,10 +55,10 @@ body{
   }
 
   .girl{
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
     position: absolute;
-    top:7900px;
+    bottom: 0;
     left:730px;
     z-index: 98;
     background: url(../images/girl.png) no-repeat;
@@ -159,8 +159,8 @@ body{
   width: 800px;
   left: 300px;
   top:2300px;
-
-    z-index: 5;
+  transform: rotate(160deg);
+  z-index: 5;
   }
 
 .bigcloud2{
@@ -213,8 +213,8 @@ h1{
   width: 200px;
   height: 40px;
   position: absolute;
-  top: 8100px;
-  left:50px;
+  bottom:0;
+  left:150px;
   color: white;
   font-family: 'Comfortaa', cursive;
   animation: text 5s forwards;
@@ -223,7 +223,7 @@ h1{
 /* A N I M A T I O N S */
 @keyframes text {
   0%{opacity:0}
-  100%{opacity: 1}
+  100%{opacity: 0.8}
 }
 
 /*@keyframes crow {

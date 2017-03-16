@@ -9,28 +9,27 @@ $(document).ready(function(){
     console.log( $(window).scrollTop());
     fromTop = $(window).scrollTop();
 
-    $(window).scroll(function(){
-  $("#crow").css({"top": 70 + $(window).scrollTop() + "px"});
-  $("#gift").css({"top": 300 + $(window).scrollTop() + "px"});
-});
+    $("#crow").css({"top": 70 + $(window).scrollTop() + "px"});
+    $("#gift").css({"top": 300 + $(window).scrollTop() + "px"});
 
 
- if (fromTop > 4500 && fromTop < 5200) {
-  $(".car").css({"animation-play-state" : "running"});
- }
 
-else{
-  $(".car").css({"animation-play-state" : "paused"});
-}
+   if (fromTop > 4500 && fromTop < 5200) {
+   $(".car").css({"animation-play-state" : "running"});
+   }
+
+   else{
+   $(".car").css({"animation-play-state" : "paused"});
+   }
 
 
- if (fromTop < 1300) {
-  $(".plane").css({"animation-play-state" : "running"});
- }
+   if (fromTop < 1300) {
+   $(".plane").css({"animation-play-state" : "running"});
+   }
 
- else{
+   else{
    $(".plane").css({"animation-play-state" : "paused"});
- }
+   }
 
 
   });//close .scroll
