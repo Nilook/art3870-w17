@@ -1,12 +1,5 @@
 /*HOMEPAGE*/
-<<<<<<< HEAD
 
-=======
-@keyframes hometitle {
-  0%{opacity: 1}
-  100%{opacity: 0}
-}
->>>>>>> 1fda25ad17051257ffc42394597cf2b4499266f5
 #home{
   background-image: url(../images/home.jpg);
   background-repeat: repeat;
@@ -477,7 +470,6 @@ span{
   animation: bluerec forwards 15s;
 }
 
-<<<<<<< HEAD
 .abouttitle{
   width: 600px;
   margin: 0 auto;
@@ -495,9 +487,5 @@ span{
   margin: 0 auto;
   padding-top: 20px;
 }
-=======
-
-
->>>>>>> 1fda25ad17051257ffc42394597cf2b4499266f5
 
 /*{outline: 1px solid red;}*/
