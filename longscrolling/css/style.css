@@ -261,7 +261,7 @@
   position: absolute;
   left: 0;
   top:420px;
-  background-image:url("../images/d.jpg");
+  background-image:url("../images/collage.jpg");
   background-repeat:no-repeat;
   background-size: contain;
 }
@@ -320,6 +320,7 @@ p{
   color: white;
   font-family: 'Comfortaa', cursive;
   transform: rotate(15deg);
+  text-decoration: none;
 }
 /*  E N D   O F   T E X T */
 /* A N I M A T I O N S */
