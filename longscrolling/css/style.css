@@ -1,4 +1,4 @@
-body{
+#home{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffb349+0,addfe9+44,117a61+93 */
   background: #ffb349; /* Old browsers */
   background: -moz-linear-gradient(top,  #ffb349 0%, #addfe9 44%, #117a61 93%); /* FF3.6-15 */
@@ -8,9 +8,20 @@ body{
 
 }
 
+#aboutbg{
+  background-color: #117a61;
+}
   #wrapper{
     width:1200px;
     height: 8400px;
+    margin:0 auto;
+    position:relative;
+    padding: 0;
+  }
+
+  #aboutwrapper{
+    width: 1200px;
+    height: 900px;
     margin:0 auto;
     position:relative;
     padding: 0;
@@ -208,22 +219,100 @@ body{
   background-size:contain;
 }
 
+.crowabout{
+  width:200px;
+  height:150px;
+  position:absolute;
+  top: 70px;
+  left: 540px;
+  background-image:url("../images/ladycrow2.png");
+  background-repeat:no-repeat;
+  background-size: contain;
+}
+
+.images{
+  width: 500px;
+  height: 1000px;
+  position: absolute;
+  top:150px;
+  left:700px;
+}
+
+.a{
+  width: 500px;
+  height: 500px;
+  background-image:url("../images/a.jpg");
+  background-repeat:no-repeat;
+  background-size: contain;
+}
+
+
+.b{
+  width: 500px;
+  height: 800px;
+  background-image:url("../images/b.jpg");
+  background-repeat:no-repeat;
+  background-size: contain;
+}
+
+.d{
+  width: 600px;
+  height: 800px;
+  position: absolute;
+  left: 50px;
+  top:420px;
+  background-image:url("../images/d.jpg");
+  background-repeat:no-repeat;
+  background-size: contain;
+}
 /* T E X T */
 h1{
   width: 200px;
   height: 40px;
   position: absolute;
-  bottom:0;
+  bottom:20px;
   left:150px;
   color: white;
   font-family: 'Comfortaa', cursive;
   animation: text 5s forwards;
 }
+
+a{
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  bottom:0px;
+  left:150px;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+}
+.about{
+  width: 300px;
+  height: 40px;
+  position: absolute;
+  top:100px;
+  left:50px;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+}
+
+p{
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  text-align: justify;
+  line-height: 2em;
+
+}
 /*  E N D   O F   T E X T */
 /* A N I M A T I O N S */
 @keyframes text {
   0%{opacity:0}
-  100%{opacity: 0.8}
+  100%{opacity: 1}
 }
 
 /*@keyframes crow {
