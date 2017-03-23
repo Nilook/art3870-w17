@@ -52,7 +52,6 @@ footer{
   font-weight: lighter;
   margin: auto;
   text-align: center;
-  margin-top: 300px;
   position: static;
 }
 
@@ -62,7 +61,6 @@ footer{
     font-weight: lighter;
     margin: auto;
     text-align: center;
-      position: static;
 }
 
 .next, .previous{
@@ -109,40 +107,40 @@ body{
     }
 
 @keyframes green {
-  0%{left: 2000px;
+  0%{left: 1800px;
      top: 50px;}
   90%{top: 82px;
     transform: rotateZ(-20deg);}
 
  100%{top:135.5px;
-      left: 800px;}
+      left: 600px;}
 }
 
 @keyframes yellow {
   0%{top:400px;}
-  75%{left: 485px;}
+  75%{left: 285px;}
   78%{transform: rotate(-40deg);}
   81%{transform: rotate(0deg);}
 
   83%{transform: rotate(-15deg);}
-  90%{left: 485px;
+  90%{left: 285px;
        transform: rotate(0deg);}
-  100%{left: 485px;
+  100%{left: 285px;
        transform: rotate(0deg);}
 }
 
 @keyframes blue {
   50%{  top: 438px;
-         left: 540px;}
+         left: 340px;}
   100%{  top: 438px;
-         left: 540px;}
+         left: 340px;}
 }
 
 @keyframes blue2 {
   0%{transform: scale(0.5)
   }
   100%{top: 543px;
-       left:652px;
+       left:452px;
        transform: none;}
 }
 
@@ -156,12 +154,13 @@ body{
   height: 900px;
   margin: auto;
   margin-top: 20px;
+  position: relative;
 }
 .black{
   width: 889px;
   height: 709px;
   position: absolute;
-  left: 321px;
+  left: 121px;
   top: 2.5px;
   animation: black 5s;
 }
@@ -171,7 +170,7 @@ body{
   height: 306px;
   position: absolute;
   top:135.5px;
-  left: 800px;
+  left: 600px;
   z-index: 2;
   animation: green 5s forwards;
 }
@@ -180,7 +179,7 @@ body{
   height: 399px;
   position: absolute;
   top: 352px;
-  left: -1600px;
+  left: -1800px;
   animation: yellow 5s forwards;
 }
 
@@ -189,7 +188,7 @@ body{
   height: 314px;
   position: absolute;
   top: 600px;
-  left:540px;
+  left:340px;
   animation: blue 5s forwards;
   }
 
@@ -198,7 +197,7 @@ body{
   height: 256px;
   position: absolute;
   top: 543px;
-  left:652px;
+  left:452px;
   animation: blue2 5s forwards;
   }
 
@@ -207,7 +206,7 @@ body{
   height: 400px;
   position: absolute;
   top: 500px;
-  left: 250px;
+  left: 0px;
   margin: auto;
   animation: text 15s forwards;
 }
@@ -231,17 +230,27 @@ span{
 
 
 /*SECOND ANIMATION*/
-.container{
-  height: 700px;
-}
+
 .wrapper2{
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both 6.9;
   backface-visibility: hidden;
   perspective: 1000px;
-  position: absolute;
+  position: relative;
+  width: 1000px;
+  height: 800px;
   top: -200px;
+  margin: auto;
 }
 
+
+.wrapperfortext{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1000px;
+  height: 800px;
+  margin-left: -500px;
+  }
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-5px, 0, 0);
@@ -261,51 +270,51 @@ span{
 }
 
 @keyframes one {
-  100%{top:505px;
-   left: 195px;
+  100%{top:405px;
+   left: -5px;
    transform: rotate(2deg);}
 }
 
 @keyframes two {
-  100%{top:555px;
-   left: 415px;
+  100%{top:455px;
+   left: 215px;
    transform: rotate(0deg);}
 }
 
 @keyframes three {
-  100%{top:700px;
-       left: 600px;
+  100%{top:600px;
+       left: 400px;
        transform: rotate(0deg);
   }
 }
 
 @keyframes six {
-  100%{top:488px;
-   left: 632px;
+  100%{top:388px;
+   left: 432px;
    transform: rotate(0deg);}
 }
 
 @keyframes five {
-  100%{top:366px;
-   left: 780px;
+  100%{top:266px;
+   left: 580px;
    transform: rotate(2deg);}
 }
 
 @keyframes four {
-  100%{top:300px;
-   left: 493px;
+  100%{top:200px;
+   left: 293px;
    transform: rotate(0deg);}
 }
 
 @keyframes seven {
-  100%{top:340px;
-   left: 732px;
+  100%{top:240px;
+   left: 532px;
    transform: rotate(0deg);}
 }
 
 @keyframes eight {
-  100%{top:463px;
-   left: 875px;
+  100%{top:363px;
+   left: 675px;
    transform: rotate(2deg);}
 }
 
@@ -317,8 +326,8 @@ span{
   width: 435px;
   height: 437px;
   position: absolute;
-  top:166px;
-  left:500px;
+  top:66px;
+  left:300px;
   animation: one 5s forwards;
   animation-delay: 1s;
 }
@@ -327,8 +336,8 @@ span{
   width: 378px;
   height: 346px;
   position: absolute;
-  top:320px;
-  left:550px;
+  top:220px;
+  left:350px;
   transform: rotate(39.5deg);
   animation: two 5s forwards;
   animation-delay: 1s;
@@ -338,8 +347,8 @@ span{
   width: 249px;
   height: 253px;
   position: absolute;
-  top:500px;
-  left:600px;
+  top:400px;
+  left:400px;
   transform: rotate(39.5deg);
   animation: three 5s forwards;
   animation-delay: 1s;
@@ -349,8 +358,8 @@ span{
   width: 173px;
   height: 179px;
   position: absolute;
-  top:75px;
-  left:660px;
+  top:-25px;
+  left:460px;
   transform: rotate(37deg);
   animation: four 5s forwards;
   animation-delay: 1s;
@@ -360,8 +369,8 @@ span{
   width: 167px;
   height: 162px;
   position: absolute;
-  top: 168px;
-  left:720px;
+  top: 68px;
+  left:520px;
   animation: five 5s forwards;
   animation-delay: 1s;
 }
@@ -370,8 +379,8 @@ span{
   width: 101px;
   height: 99px;
   position: absolute;
-  top: 251px;
-  left:750px;
+  top: 151px;
+  left:550px;
   transform: rotate(40deg);
   animation: six 5s forwards;
   animation-delay: 1s;
@@ -381,8 +390,8 @@ span{
   width: 74px;
   height: 72px;
   position: absolute;
-  top:55px;
-  left:700px;
+  top:-45px;
+  left:500px;
   animation: seven 5s forwards;
   animation-delay: 1s;
 }
@@ -391,8 +400,8 @@ span{
   width: 57px;
   height: 55px;
   position: absolute;
-  top:35px;
-  left:700px;
+  top:-65px;
+  left:500px;
   transform: rotate(46deg);
   animation: eight 5s forwards;
   animation-delay: 1s;
@@ -400,24 +409,22 @@ span{
 
 .text2{
   width: 400px;
-  height: 400px;
+  height: 200px;
   position: absolute;
-  top: 330px;
-  left: 820px;
+  top: 250px;
+  left:620px;
   margin: auto;
   animation: text 15s forwards;
   }
 
 /*THIRD ANIMATION*/
-.container2{
-  height: 800px;
-}
+
 @keyframes jump {
   0%, 10%, 20%{  top: 500px;
-            left: 530px;}
+            left: 330px;}
   5%{top: 500px;
-      left: 461px;}
-  15%{left:598px;}
+      left: 261px;}
+  15%{left:398px;}
 
   25%{top:650px;}
 
@@ -429,26 +436,26 @@ span{
 
   45%{top:105px;}
 
-  49%{left: 530px}
+  49%{left: 330px}
 
   50%{top:106px;}
 
   55%{top:107px;
-    left: 400px;}
+    left: 200px;}
 
   65%{top:20px;
-    left: 330px;}
+    left: 130px;}
 
   100%{top:20px;
-    left: 330px;}
+    left: 130px;}
 }
 
 .text3{
-  width: 600px;
+  width: 400px;
   height: 200px;
   position: absolute;
   top: 270px;
-  left: 820px;
+  left: 620px;
   animation: text forwards 15s;
 }
 
@@ -465,7 +472,7 @@ span{
   height: 553px;
   position: absolute;
   top: 300px;
-  left: 450px;
+  left: 250px;
   z-index: 1;
   animation: bluerec forwards 15s;
 }
