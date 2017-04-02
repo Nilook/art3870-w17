@@ -46,22 +46,18 @@ nav{
 .home{left: 100px;}
 .about{left:200px;}
 
-footer{
+.footer{
   font-family: 'Titillium Web', sans-serif;
   color: grey;
   font-weight: lighter;
-  margin: auto;
   text-align: center;
-  position: static;
-}
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+  }
 
-.worksfooter{
-    font-family: 'Titillium Web', sans-serif;
-    color: black;
-    font-weight: lighter;
-    margin: auto;
-    text-align: center;
-}
+
 
 .next, .previous{
   width: 30px;
