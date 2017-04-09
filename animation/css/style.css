@@ -1,494 +1,574 @@
 /*HOMEPAGE*/
 
-#home{
-  background-image: url(../images/home.jpg);
-  background-repeat: repeat;
+#home {
+    background-image: url(../images/home.jpg);
+    background-repeat: repeat;
 }
 
-h1{
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 500%;
+    font-weight: lighter;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+    animation: hometitle 1 15s forwards;
+    z-index: 2;
+}
+
+.homynav {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: lighter;
+    margin: 0 auto;
+    margin-left: -50px;
+    text-align: center;
+}
+
+
+.homenav li {
+    border: grey 2px solid;
+    border-radius: 5px;
+    margin-top: 10;
+    padding: 5px;
+    display: inline-block;
+}
+
+
+.homynav a {
+    color: lightgrey;
+    margin-right: 50px;
+    letter-spacing: 0.5em;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 8px;
+}
+
+.pagenav, .pagenav a {
   font-family: 'Titillium Web', sans-serif;
-  color: white;
-  font-size: 500%;
   font-weight: lighter;
-  width: 600px;
-  margin: 0 auto;
-  margin-top: 150px;
-  text-align: center;
-  animation: hometitle 1 15s forwards;
-  z-index: 2;
+    height: 20px;
+    text-decoration: none;
+    text-decoration: underline;
+    color: black;
+    margin-right: 15px;
 }
 
-nav{
-  font-family: 'Titillium Web', sans-serif;
-  color: white;
-  font-weight: lighter;
-  margin: 0 auto;
-  margin-left: -50px;
-  text-align: center;
+
+.footer {
+    font-family: 'Titillium Web', sans-serif;
+    color: grey;
+    font-weight: lighter;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.homenav li, .homenav a{
-  display: inline-block;
-  text-decoration: none;
-  padding: 30px;
-  text-decoration: underline;
-  color: white;
+.next, .previous {
+    width: 30px;
+    height: 50px;
+    opacity: 0.3;
+    margin: 0 auto;
+    display: block;
 }
 
-.pagenav, .pagenav a{
-  height: 10px;
-  text-decoration: none;
-  text-decoration: underline;
-  color: black;
-  position: absolute;
+.next:hover, .previous:hover {
+    opacity: 1;
 }
 
-.home{left: 100px;}
-.about{left:200px;}
-
-.footer{
-  font-family: 'Titillium Web', sans-serif;
-  color: grey;
-  font-weight: lighter;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  margin: 0 auto;
-  }
-
-
-
-.next, .previous{
-  width: 30px;
-  height: 50px;
-  opacity: 0.3;
-  margin: 0 auto;
-  display: block;
-  }
-
-.next:hover, .previous:hover{
-  opacity: 1;
+.previous {
+    position: fixed;
+    left: 0;
+    top: 300px;
 }
 
-.previous{
-  position: fixed;
-  left: 0;
-  top: 300px;
+.next {
+    position: fixed;
+    right: 0;
+    top: 300px;
 }
 
-.next{
-  position: fixed;
-  right: 0;
-  top: 300px;
-}
-
-.navbar{
-  margin-bottom: 100px;
-  margin-top: -50px;
+.navbar {
+    margin-bottom: 100px;
+    margin-top: -50px;
 }
 
 /*FIRST PAINTING*/
 
-body{
-  background-image: url(../images/body4.jpg);
-  background-repeat: repeat;
+body {
+    background-image: url(../images/body4.jpg);
+    background-repeat: repeat;
 }
 
 @keyframes black {
-  0%{transform: rotate(0.5turn);}
-  50%{transform: scale(0.75)}
-  80%{transform: rotate(0deg);}
-  100%{transform: rotate(0deg)}
+    0% {
+        transform: rotate(0.5turn);
     }
+    50% {
+        transform: scale(0.75)
+    }
+    80% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg)
+    }
+}
 
 @keyframes green {
-  0%{left: 1800px;
-     top: 50px;}
-  90%{top: 82px;
-    transform: rotateZ(-20deg);}
-
- 100%{top:135.5px;
-      left: 600px;}
+    0% {
+        left: 1800px;
+        top: 50px;
+    }
+    90% {
+        top: 82px;
+        transform: rotateZ(-20deg);
+    }
+    100% {
+        top: 135.5px;
+        left: 600px;
+    }
 }
 
 @keyframes yellow {
-  0%{top:400px;}
-  75%{left: 285px;}
-  78%{transform: rotate(-40deg);}
-  81%{transform: rotate(0deg);}
-
-  83%{transform: rotate(-15deg);}
-  90%{left: 285px;
-       transform: rotate(0deg);}
-  100%{left: 285px;
-       transform: rotate(0deg);}
+    0% {
+        top: 400px;
+    }
+    75% {
+        left: 285px;
+    }
+    78% {
+        transform: rotate(-40deg);
+    }
+    81% {
+        transform: rotate(0deg);
+    }
+    83% {
+        transform: rotate(-15deg);
+    }
+    90% {
+        left: 285px;
+        transform: rotate(0deg);
+    }
+    100% {
+        left: 285px;
+        transform: rotate(0deg);
+    }
 }
 
 @keyframes blue {
-  50%{  top: 438px;
-         left: 340px;}
-  100%{  top: 438px;
-         left: 340px;}
+    50% {
+        top: 438px;
+        left: 340px;
+    }
+    100% {
+        top: 438px;
+        left: 340px;
+    }
 }
 
 @keyframes blue2 {
-  0%{transform: scale(0.5)
-  }
-  100%{top: 543px;
-       left:452px;
-       transform: none;}
+    0% {
+        transform: scale(0.5)
+    }
+    100% {
+        top: 543px;
+        left: 452px;
+        transform: none;
+    }
 }
 
 @keyframes text {
-  0%{opacity: 0}
-  100%{opacity: 1}
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
 }
 
-.wrapper{
-  width: 1000px;
-  height: 900px;
-  margin: auto;
-  margin-top: 20px;
-  position: relative;
-}
-.black{
-  width: 889px;
-  height: 709px;
-  position: absolute;
-  left: 121px;
-  top: 2.5px;
-  animation: black 5s;
+.wrapper {
+    width: 1000px;
+    height: 900px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
 }
 
-.green{
-  width: 347px;
-  height: 306px;
-  position: absolute;
-  top:135.5px;
-  left: 600px;
-  z-index: 2;
-  animation: green 5s forwards;
-}
-.yellow{
-  width: 674px;
-  height: 399px;
-  position: absolute;
-  top: 352px;
-  left: -1800px;
-  animation: yellow 5s forwards;
+.black {
+    width: 889px;
+    height: 709px;
+    position: absolute;
+    left: 121px;
+    top: 2.5px;
+    animation: black 5s;
 }
 
-.blue{
-  width: 584px;
-  height: 314px;
-  position: absolute;
-  top: 600px;
-  left:340px;
-  animation: blue 5s forwards;
-  }
-
-.blue2{
-  width: 371px;
-  height: 256px;
-  position: absolute;
-  top: 543px;
-  left:452px;
-  animation: blue2 5s forwards;
-  }
-
-.text{
-  width: 400px;
-  height: 400px;
-  position: absolute;
-  top: 500px;
-  left: 0px;
-  margin: auto;
-  animation: text 15s forwards;
+.green {
+    width: 347px;
+    height: 306px;
+    position: absolute;
+    top: 135.5px;
+    left: 600px;
+    z-index: 2;
+    animation: green 5s forwards;
 }
 
-p{
-  font-family: 'Titillium Web', sans-serif;
-  color: black;
-  font-size: 200%;
-  line-height: 1.1em;
+.yellow {
+    width: 674px;
+    height: 399px;
+    position: absolute;
+    top: 352px;
+    left: -1800px;
+    animation: yellow 5s forwards;
 }
 
-.source{
-  color: black;
-  font-size: 100%;
-  margin-top: -20px;
+.blue {
+    width: 584px;
+    height: 314px;
+    position: absolute;
+    top: 600px;
+    left: 340px;
+    animation: blue 5s forwards;
 }
-span{
-  font-style: italic;
-  }
 
+.blue2 {
+    width: 371px;
+    height: 256px;
+    position: absolute;
+    top: 543px;
+    left: 452px;
+    animation: blue2 5s forwards;
+}
+
+.text {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    margin: auto;
+    animation: text 15s forwards;
+}
+
+p {
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    font-size: 200%;
+    line-height: 1.1em;
+}
+
+.source {
+    color: black;
+    font-size: 100%;
+    margin-top: -20px;
+}
+
+span {
+    font-style: italic;
+}
 
 
 /*SECOND ANIMATION*/
 
-.wrapper2{
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both 6.9;
-  backface-visibility: hidden;
-  perspective: 1000px;
-  position: relative;
-  width: 1000px;
-  height: 800px;
-  top: -200px;
-  margin: auto;
+.wrapper2 {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both 6.9;
+    backface-visibility: hidden;
+    perspective: 1000px;
+    position: relative;
+    width: 1000px;
+    height: 800px;
+    top: -200px;
+    margin: auto;
 }
 
+.wrapperfortext {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1000px;
+    height: 800px;
+    margin-left: -500px;
+}
 
-.wrapperfortext{
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 1000px;
-  height: 800px;
-  margin-left: -500px;
-  }
 @keyframes shake {
-  10%, 90% {
-    transform: translate3d(-5px, 0, 0);
-  }
-
-  20%, 80% {
-    transform: translate3d(6px, 0, 0);
-  }
-
-  30%, 50%, 70% {
-    transform: translate3d(-8px, 0, 0);
-  }
-
-  40%, 60% {
-    transform: translate3d(8px, 0, 0);
-  }
+    10%, 90% {
+        transform: translate3d(-5px, 0, 0);
+    }
+    20%, 80% {
+        transform: translate3d(6px, 0, 0);
+    }
+    30%, 50%, 70% {
+        transform: translate3d(-8px, 0, 0);
+    }
+    40%, 60% {
+        transform: translate3d(8px, 0, 0);
+    }
 }
 
 @keyframes one {
-  100%{top:405px;
-   left: -5px;
-   transform: rotate(2deg);}
+    100% {
+        top: 405px;
+        left: -5px;
+        transform: rotate(2deg);
+    }
 }
 
 @keyframes two {
-  100%{top:455px;
-   left: 215px;
-   transform: rotate(0deg);}
+    100% {
+        top: 455px;
+        left: 215px;
+        transform: rotate(0deg);
+    }
 }
 
 @keyframes three {
-  100%{top:600px;
-       left: 400px;
-       transform: rotate(0deg);
-  }
+    100% {
+        top: 600px;
+        left: 400px;
+        transform: rotate(0deg);
+    }
 }
 
 @keyframes six {
-  100%{top:388px;
-   left: 432px;
-   transform: rotate(0deg);}
+    100% {
+        top: 388px;
+        left: 432px;
+        transform: rotate(0deg);
+    }
 }
 
 @keyframes five {
-  100%{top:266px;
-   left: 580px;
-   transform: rotate(2deg);}
+    100% {
+        top: 266px;
+        left: 580px;
+        transform: rotate(2deg);
+    }
 }
 
 @keyframes four {
-  100%{top:200px;
-   left: 293px;
-   transform: rotate(0deg);}
+    100% {
+        top: 200px;
+        left: 293px;
+        transform: rotate(0deg);
+    }
 }
 
 @keyframes seven {
-  100%{top:240px;
-   left: 532px;
-   transform: rotate(0deg);}
+    100% {
+        top: 240px;
+        left: 532px;
+        transform: rotate(0deg);
+    }
 }
 
 @keyframes eight {
-  100%{top:363px;
-   left: 675px;
-   transform: rotate(2deg);}
+    100% {
+        top: 363px;
+        left: 675px;
+        transform: rotate(2deg);
+    }
 }
 
-.red1, .red2, .red3, .red4, .red5, .red6, .red7, .red8{
-  transform: rotate(44deg);
+.red1, .red2, .red3, .red4, .red5, .red6, .red7, .red8 {
+    transform: rotate(44deg);
 }
 
-.red1{
-  width: 435px;
-  height: 437px;
-  position: absolute;
-  top:66px;
-  left:300px;
-  animation: one 5s forwards;
-  animation-delay: 1s;
+.red1 {
+    width: 435px;
+    height: 437px;
+    position: absolute;
+    top: 66px;
+    left: 300px;
+    animation: one 5s forwards;
+    animation-delay: 1s;
 }
 
-.red2{
-  width: 378px;
-  height: 346px;
-  position: absolute;
-  top:220px;
-  left:350px;
-  transform: rotate(39.5deg);
-  animation: two 5s forwards;
-  animation-delay: 1s;
+.red2 {
+    width: 378px;
+    height: 346px;
+    position: absolute;
+    top: 220px;
+    left: 350px;
+    transform: rotate(39.5deg);
+    animation: two 5s forwards;
+    animation-delay: 1s;
 }
 
-.red3{
-  width: 249px;
-  height: 253px;
-  position: absolute;
-  top:400px;
-  left:400px;
-  transform: rotate(39.5deg);
-  animation: three 5s forwards;
-  animation-delay: 1s;
+.red3 {
+    width: 249px;
+    height: 253px;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    transform: rotate(39.5deg);
+    animation: three 5s forwards;
+    animation-delay: 1s;
 }
 
-.red4{
-  width: 173px;
-  height: 179px;
-  position: absolute;
-  top:-25px;
-  left:460px;
-  transform: rotate(37deg);
-  animation: four 5s forwards;
-  animation-delay: 1s;
+.red4 {
+    width: 173px;
+    height: 179px;
+    position: absolute;
+    top: -25px;
+    left: 460px;
+    transform: rotate(37deg);
+    animation: four 5s forwards;
+    animation-delay: 1s;
 }
 
-.red5{
-  width: 167px;
-  height: 162px;
-  position: absolute;
-  top: 68px;
-  left:520px;
-  animation: five 5s forwards;
-  animation-delay: 1s;
+.red5 {
+    width: 167px;
+    height: 162px;
+    position: absolute;
+    top: 68px;
+    left: 520px;
+    animation: five 5s forwards;
+    animation-delay: 1s;
 }
 
-.red6{
-  width: 101px;
-  height: 99px;
-  position: absolute;
-  top: 151px;
-  left:550px;
-  transform: rotate(40deg);
-  animation: six 5s forwards;
-  animation-delay: 1s;
+.red6 {
+    width: 101px;
+    height: 99px;
+    position: absolute;
+    top: 151px;
+    left: 550px;
+    transform: rotate(40deg);
+    animation: six 5s forwards;
+    animation-delay: 1s;
 }
 
-.red7{
-  width: 74px;
-  height: 72px;
-  position: absolute;
-  top:-45px;
-  left:500px;
-  animation: seven 5s forwards;
-  animation-delay: 1s;
+.red7 {
+    width: 74px;
+    height: 72px;
+    position: absolute;
+    top: -45px;
+    left: 500px;
+    animation: seven 5s forwards;
+    animation-delay: 1s;
 }
 
-.red8{
-  width: 57px;
-  height: 55px;
-  position: absolute;
-  top:-65px;
-  left:500px;
-  transform: rotate(46deg);
-  animation: eight 5s forwards;
-  animation-delay: 1s;
+.red8 {
+    width: 57px;
+    height: 55px;
+    position: absolute;
+    top: -65px;
+    left: 500px;
+    transform: rotate(46deg);
+    animation: eight 5s forwards;
+    animation-delay: 1s;
 }
 
-.text2{
-  width: 400px;
-  height: 200px;
-  position: absolute;
-  top: 250px;
-  left:620px;
-  margin: auto;
-  animation: text 15s forwards;
-  }
+.text2 {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 250px;
+    left: 620px;
+    margin: auto;
+    animation: text 15s forwards;
+}
+
 
 /*THIRD ANIMATION*/
 
 @keyframes jump {
-  0%, 10%, 20%{  top: 500px;
-            left: 330px;}
-  5%{top: 500px;
-      left: 261px;}
-  15%{left:398px;}
-
-  25%{top:650px;}
-
-  30%{top:300px;}
-
-  35%{top:400px;}
-
-  40%{top:50px;}
-
-  45%{top:105px;}
-
-  49%{left: 330px}
-
-  50%{top:106px;}
-
-  55%{top:107px;
-    left: 200px;}
-
-  65%{top:20px;
-    left: 130px;}
-
-  100%{top:20px;
-    left: 130px;}
+    0%, 10%, 20% {
+        top: 500px;
+        left: 330px;
+    }
+    5% {
+        top: 500px;
+        left: 261px;
+    }
+    15% {
+        left: 398px;
+    }
+    25% {
+        top: 650px;
+    }
+    30% {
+        top: 300px;
+    }
+    35% {
+        top: 400px;
+    }
+    40% {
+        top: 50px;
+    }
+    45% {
+        top: 105px;
+    }
+    49% {
+        left: 330px
+    }
+    50% {
+        top: 106px;
+    }
+    55% {
+        top: 107px;
+        left: 200px;
+    }
+    65% {
+        top: 20px;
+        left: 130px;
+    }
+    100% {
+        top: 20px;
+        left: 130px;
+    }
 }
 
-.text3{
-  width: 400px;
-  height: 200px;
-  position: absolute;
-  top: 270px;
-  left: 620px;
-  animation: text forwards 15s;
+.text3 {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 270px;
+    left: 620px;
+    animation: text forwards 15s;
 }
 
-.circle{
-  width: 200px;
-  height: 200px;
-  animation: jump 12s forwards;
-  position: absolute;
-  z-index: 2;
+.circle {
+    width: 200px;
+    height: 200px;
+    animation: jump 12s forwards;
+    position: absolute;
+    z-index: 2;
 }
 
-.bluerec{
-  width: 353px;
-  height: 553px;
-  position: absolute;
-  top: 300px;
-  left: 250px;
-  z-index: 1;
-  animation: bluerec forwards 15s;
+.bluerec {
+    width: 353px;
+    height: 553px;
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    z-index: 1;
+    animation: bluerec forwards 15s;
 }
 
-.abouttitle{
-  width: 600px;
-  margin: 0 auto;
-  padding-top: 5px;
-  color: black;
-  padding-top: 90px;
+.abouttitle {
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 5px;
+    color: black;
+    padding-top: 90px;
 }
 
-.abouttext{
-  width: 950px;
-  height: 600px;
-  font-size: 140%;
-  line-height: 1.5em;
-  text-align: justify;
-  margin: 0 auto;
-  padding-top: 20px;
+.abouttext {
+    width: 950px;
+    height: 600px;
+    font-size: 140%;
+    line-height: 1.5em;
+    text-align: justify;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 
-/*{outline: 1px solid red;}*/
+
+
+*{outline: 1px solid red;}*/
